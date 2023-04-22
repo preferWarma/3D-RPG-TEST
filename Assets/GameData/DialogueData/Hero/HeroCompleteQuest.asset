@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9668aae14eff34ea82914d0e68a2a9, type: 3}
+  m_Name: HeroCompleteQuest
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - id: Piece01
+    sprite: {fileID: 21300000, guid: 8745d142939ad3442b0684c87c9ab40d, type: 3}
+    text: "\u771F\u4E0D\u9519\uFF0C\u6211\u679C\u7136\u6CA1\u770B\u9519\u4F60\uFF01\u62FF\u597D\uFF0C\u8FD9\u662F\u6211\u7ED9\u4F60\u7684\u793C\u7269"
+    receiveQuest: {fileID: 11400000, guid: 5636607f1fe92ad42b4899c636b56179, type: 2}
+    dialogueOptions:
+    - text: "\u5C0F\u95EE\u9898\uFF0C\u8C22\u8C22\u4F60"
+      targetID: 
+      takeQuest: 1
+    isEnd: 1

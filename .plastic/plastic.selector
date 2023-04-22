@@ -1,0 +1,4 @@
+repository "LYF_2004240423@wechat_os_qy02lnw8b6lfwediynp2dnwcc@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

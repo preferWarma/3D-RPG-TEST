@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9668aae14eff34ea82914d0e68a2a9, type: 3}
+  m_Name: WizardCompleteQuest
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - id: Piece01
+    sprite: {fileID: 0}
+    text: "\u771F\u4E0D\u9519\u5C0F\u4F19\u5B50\uFF0C\u7ED9\u4F60\u7684\u5956\u52B1\uFF0C\u62FF\u7740\u5427"
+    receiveQuest: {fileID: 11400000, guid: 64969d2822877b84e91f483f61685a63, type: 2}
+    dialogueOptions:
+    - text: "\u5408\u4F5C\u6109\u5FEB"
+      targetID: 
+      takeQuest: 1
+    isLast: 1

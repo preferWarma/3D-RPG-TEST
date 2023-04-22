@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21ef0cbb649a13245960f69925a61a76, type: 3}
+  m_Name: Quest1
+  m_EditorClassIdentifier: 
+  questName: "\u6D88\u706D\u6363\u4E71\u5206\u5B50"
+  description: "\u6253\u6B7B2\u4E2A\u7EA2\u8272\u7684\u53F2\u83B1\u59C6\u548C1\u4E2A\u84DD\u8272\u4E4C\u9F9F"
+  isStarted: 0
+  isComplete: 0
+  isFinished: 0
+  requirementList:
+  - name: Slime
+    requireAmount: 2
+    currentAmount: 0
+  - name: TurtleShell
+    requireAmount: 1
+    currentAmount: 0
+  rewards:
+  - itemDataSo: {fileID: 11400000, guid: 8678ef42ea01e83499b1577fd07c953a, type: 2}
+    amount: 3
